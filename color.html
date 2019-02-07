@@ -4,48 +4,169 @@
 <style>
 .header h3
 {
-font-size:60px;
-color:red;
-text-align:center;
+       font-size:60px;         
+       margin-left:12px;
+       margin-top:10px;
+       color:purple;
+
 }
+
 .header 
 {
-  font-size:20px;
-  color:green;
-  font-weight:bold;
-  background-color:#234512;
-  width:1200px;
-  height:600px;
-  background-position:top left;
-  background-repeat:repeat;
+
+
+       font-size:20px;                 
+       background-color:#FACF00;
+       background-position:top left;
+       background-repeat:repeat;
+
+
 }
 
-.header a ol:link {
-  color: green; 
-  background-color: transparent; 
-  text-decoration: none;
-}
-
-.header a ol:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.header a ol:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.header a ol:active {
-  color:;
-  background-color: transparent;
-  text-decoration: underline;
+.header a:hover                     
+{
+color:red;
 }
 .main-content
 {
-background-image=url(
+background-image:url("http://themesdemo.fastcomet.com/Colourmate/images/banner1.jpg");         
+margin-top:2px;
+height:800px;
+background-position:top left;
+background-repeat:no-repeat;
+background-size: cover;
+transition:background-image 1s ease-in-out;
+padding:20px 20px 20px 20px;
+
+}
+.main-content:hover
+{                                                            
+background-image:url("http://themesdemo.fastcomet.com/Colourmate/images/banner3.jpg");
+           
+}
+
+.main-content h1
+{
+font-size:80px;                                      
+font-weight:bold;
+color:black;
+padding:20px 0px 20px 0;
+
+}
+.main-content h4
+{
+font-size:38px;
+color:black;
+padding:20px 0px 20px 20px;
+}
+.btn1
+{
+background-color:#4CAF50;                           
+font-size:40px;
+color:white;
+margin-top:40px;
+margin-bottom:26px;
+margin-left:6px;
+cursor: pointer;
+text-align:center;
+}
+.btn2
+{
+background-color:#FFCF00;
+font-size:40px;
+color:white;
+margin-top:40px;
+margin-bottom:26px;
+margin-left:30px;
+cursor: pointer;
+text-align:center;
+}
+.info h3
+{
+font-size:60px;
+text-align:center;
+}
+.boxed1 {
+background: white;
+border:1px solid black;
+float: left;
+width: 400px;
+padding: 3px;
+margin: 3px;
+}
+.boxed1:hover
+{
+box - shadow:5px 10px #333440;
+}
+
+.boxed2 {
+background: white;
+border:1px solid black;
+float: left;
+width: 400px;
+padding: 3px;
+margin: 3px; 
+}
+.boxed2:hover
+{
+box - shadow:5px 10px #333440;
+}
+
+.boxed3 {
+background: white;
+border:1px solid black;
+float: left;
+width: 400px;
+padding: 3px;
+margin: 3px;
+}
+.boxed3:hover
+{
+box - shadow:5px 10px #333440;
+}
+.info :hr
+{
+ 
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-style: solid;
+  border-width: 10px;
+}
+.boxed1 :h1
+{
+font-weight:bold;
+font-size:30px;
+text-align:center;
+}
+.boxed2 :h1
+{
+font-weight:bold;
+font-size:30px;
+text-align:center;
+}
+.boxed3 :h1
+{
+font-weight:bold;
+font-size:30px;
+text-align:center;
+}
+.boxed1 :h5
+{
+font-size:20px;
+text-align:center;
+}
+.boxed2 :h5
+{
+font-size:20px;
+text-align:center;
+}
+.boxed3 :h5
+{
+font-size:20px;
+text-align:center;
+}
 
 </style>
 
@@ -54,18 +175,40 @@ background-image=url(
 
 
 
-<div class="header">
+<div class="header">          
 <h3>COLOURMATE</h3>
 
-<a href="link"><ol>Home About Gallery Blog Content Services</ol></a>
+<a href="link">Home</a>
+<a href="link">about</a>
+<a href="link">gallery</a>
+<a href="link">Blog</a>
+<a href="link">Content</a>
+<a href="link">Services</a>
 </div>
-<div class="main-content">
+<div class="main-content">                         
+<h1>BRING YOUR HOME AS YOUR DREAMY WORLD</h1>
+<h4>LOOK AT THE FINISH</h4>
+<button class="btn1">Contact us</button>
+<button class="btn2">Learn More</button>
 </div>
 
 
-
-
-
+<div class="info">
+<h3>Why Choose us?</h3>
+<hr>
+</div>
+<div class="boxed1">
+<h1>Pre-Paint Demo</h1>
+<h5>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, type specimen book.</h5>
+</div>
+<div class="boxed2">
+<h1>Outdoor Painting</h1>
+<h5>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, type specimen book.</h5>
+</div>
+<div class="boxed3">
+<h1>Toxic Removal</h1>
+<h5>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, type specimen book.</h5>
+</div>
 </body>
 </html>
 
