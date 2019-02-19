@@ -1,0 +1,602 @@
+<style>
+.site-name h2
+{
+	border:1px solid transparent;
+	height:50px;
+	width:200px;
+	font-family:'Oswald', sans-serif;
+	color:white;
+	font-size:36px;
+	padding:20px;
+
+}
+.header a
+{
+      font-size: 14px;
+	  font-family: 'Oswald', sans-serif;
+	  color:#FFF;
+      text-transform: uppercase;
+	  text-decoration:none;
+      text-align:right;
+     position:relative;
+     top:-90px;
+	 left:600px;
+	 padding:14px;
+	}
+.header 
+{
+       height:120px;
+	   font-family: 'Oswald', sans-serif;
+	   font-size:36px;
+       color:white;	   
+       background-image: linear-gradient( to right, #FF9B86,#FFFB84, #22d3ac,#97739C) ;
+       background-position:top left;
+       background-repeat:repeat;
+     
+
+}
+.main-content
+{
+
+       background-image:url("http://themesdemo.fastcomet.com/Colourmate/images/banner2.jpg");
+       height:800px;
+       background-position:top left;
+       background-repeat:no-repeat;        
+       background-size: cover;
+       transition:background-image 1s ease-in-out;
+       padding:20px 20px 20px 20px;
+}
+.main-content h1
+{
+        font-size:46px;                                      
+		font-weight:bold;
+		color:#FFF;
+		font-family: 'Oswald', sans-serif;
+		padding:20px 0px 20px 0;
+
+}
+.main-content h4
+{
+		font-size:38px;
+		color:#FFF;
+		font-family: 'Oswald', sans-serif;
+		padding:20px 0px 20px 20px;
+}
+.contact-us
+{
+		border:none;
+		background-color:rgb(37,190,171);                           
+		font-size:20px;
+		font-family: 'Oswald', sans-serif;
+		color:white;
+		margin-top:40px;
+		margin-bottom:26px;
+		margin-left:6px;
+		cursor: pointer;
+		text-align:center;
+		display:inline-block;
+		padding:12px 28px;
+}
+.learnmore
+{
+		border:none;
+		background-color:rgb(52,93,166);
+		font-size:20px;
+		font-family: 'Oswald', sans-serif;
+		color:white;
+		margin-top:40px;
+		margin-bottom:26px;
+		margin-left:30px;
+		cursor: pointer;
+		text-align:center;
+		padding:12px 28px;
+}
+.info h3
+{
+	     font-family:'Oswald', sans-serif;
+		font-size:60px;
+		text-align:center;
+}
+.box
+{
+		border:1px solid transparent;
+		width:1200;
+		height:500;
+		margin-left:80px;
+		marfgin-right:80px;
+		margin-bottom:80px;
+}
+.boxed1 
+{
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px;
+		text-align:  center;
+		font-size:14px;
+		border-radius:12px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+}
+.boxed1:hover
+{
+        box-shadow:0px 8px 12px rgb(24,171,176);
+}
+.boxed2 
+{
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px; 
+		text-align:  center;
+		font-size:14px;
+		border-radius:25px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+}
+.boxed2:hover
+{
+        box-shadow: 0px 8px 12px rgb(24,171,176);
+}
+
+.boxed3 {
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px;
+		text-align:  center;
+		font-size:14px;
+		border-radius:25px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+}
+.boxed3:hover
+{
+        box-shadow:  0px 8px 12px rgb(24,171,176);
+}
+.boxed4{
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px;
+		text-align:  center;
+		font-size:14px;
+		border-radius:25px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+	}
+.boxed4:hover
+{
+        box-shadow: 0px 8px 12px rgb(24,171,176);
+}
+.boxed5{
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px;
+		text-align:  center;
+		font-size:14px;
+		border-radius:25px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+}
+.boxed5:hover
+{ 
+        box-shadow:0px 8px 12px rgb(24,171,176);
+}
+.boxed6{
+		background: white;
+		border:1px solid rgba(0,0,0,0.05);
+		float: left;
+		width: 310px;
+		height:180px;
+		padding: 15px;
+		margin: 8px;
+		text-align:  center;
+		font-size:14px;
+		border-radius:25px;
+		color: #000000;
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 1px;
+		line-height: 1.5;
+}
+.boxed6:hover
+{
+        box-shadow:  0px 8px 12px rgb(24,171,176);
+}
+.info hr
+{
+		margin-left:600px;
+		margin-right:600px;
+		border:2px solid black;
+}
+.heading hr
+{	
+		margin-left:500px;
+		margin-right:500px;
+		border:2px solid black;
+  }
+ 
+.project1 img
+ {
+		float:left;
+		height:160px;
+		width:200px;
+ }
+.project2 img
+ {
+		float:left;
+		height:160px;
+		width:200px;
+ }
+.project3 img
+ {
+		float:left;
+		height:160px;
+		width:200px;
+ }
+.project4 img
+ {
+		float:left;
+		height:160px;
+		width:200px;
+ }
+ .company
+ {
+		float:left;
+		padding-top:10px;
+		background-image:url("http://themesdemo.fastcomet.com/Colourmate/images/company.jpg");
+		width:1280px;
+		height:480px;
+		float:left;
+		background-size:cover;
+        position: relative;
+        font-size:15px;
+        font-family:'Oswald', sans-serif;			
+        color: black;
+}
+.company img
+{
+		float:right;
+}		  
+.text
+{
+	    text-align:left;
+		position: absolute;
+		margin-left:20px;
+		margin-top:20px;
+		margin-bottom:20px;
+		vertical-align:baseline;
+        bottom: 8px;
+        left: 16px;
+}
+.heading h1
+{
+		font-family:'Oswald', sans-serif;
+		font-size:40px;
+		text-align:center;
+		font-weight:bold;
+}
+.getfree h1
+{
+		font-family: 'Oswald', sans-serif;
+		background-image:linear-gradient( to right, #FF9B86,#FFFB84, #22d3ac,#97739C) ;
+		text-align:center;
+		margin-top:8px;
+		margin-bottom:8px;
+		color:black;
+}
+.news1
+{
+		font-family: 'Oswald', sans-serif;
+		text-align:left;
+		font-size:14px;
+        border:1px solid transparent;
+        height:400px;
+        width:370px;
+        float:left;
+        padding-right:20px;
+}
+.news2
+{
+		font-family: 'Oswald', sans-serif;
+		text-align:left;
+		font-size:14px;
+        border:1px solid transparent;
+        height:400px;
+        width:370px;
+        float:left;
+        padding-right:20px;
+}
+.news3
+{
+	    font-family: 'Oswald', sans-serif;
+		text-align:left;
+		font-size:14px;
+        border:1px solid transparent;
+        height:400px;
+        width:370px;
+        float:left;
+        padding-right:20px;
+  }
+  .date
+  {
+        position: absolute;
+        float:bottom;
+        bottom: 8px;
+        left: 16px;
+        color:red;
+        font-family:'Oswald', sans-serif;
+        background-color:#FFF;
+  }
+.news h1
+{
+        text-align:center;
+        font-size:40px;
+        color:black;
+        font-family:'Oswald', sans-serif;
+}
+.news hr
+{
+		border:2px solid black;
+		margin-left:600px;
+		margin-right:600px;
+}	
+.op hr
+{
+		border:2px solid black;
+		margin-left:600px;
+		margin-right:600px;
+}	 
+		 
+.ourpartner1 img
+{
+        float:left;
+}
+.ourpartner2 img
+{
+        float:left;
+}
+.ourpartner3 img
+{
+        float:left;
+}
+.ourpartner4
+{
+        float:left;
+}
+.op h1
+{
+        text-align:center;
+		font-size:50px;
+		font-family:'Oswald', sans-serif;
+		text-align:center;
+}
+.boxed1 i
+{
+		border:1px solid rgb(73,216,65);
+		border-width:12px;
+		border-height:12px;
+		border-radius:80px;
+		background-color:rgb(73,216,65);
+}
+.boxed2 i
+{
+		border:1px solid rgb(244,34,9);
+		border-width:12px;
+		border-height:12px;
+		border-radius:80px;
+		background-color:rgb(244,34,9);
+}
+.boxed3 i
+{
+		border:1px solid rgb(24,211,216);
+		border-width:12px;
+		border-height:12px;
+		border-radius:80px;
+		background-color:rgb(24,211,216);
+}
+.boxed4 i
+{
+		border:1px solid rgb(232,53,179);
+		border-width:12px;
+		border-height/;12px;
+		border-radius:80px;
+		background-color:rgb(232,53,179);
+}
+.boxed5 i
+{
+		border:1px solid blue;
+		border-width:12px;
+		border-height:12px;
+		border-radius:80px;
+		background-color:blue;
+}
+.boxed6 i
+{
+		border:1px solid rgb(227, 221, 25);
+		border-width:12px;
+		border-height:12px;
+		border-radius:80px;
+		background-color: rgb(227, 221, 25);
+}
+.bg
+{
+		text-align:center;
+		padding: 6% 7%;
+		background: #eee;
+		background-image: initial;
+		background-size: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: rgb(238, 238, 238);
+}
+.details
+{
+        background-color:#000000;
+		height:400px;
+		background-size:cover;
+}
+
+.colour
+{
+		border:1px solid transparent;
+		background-color:white;
+		background-size:cover;
+		border:1px solid transparent;
+		height:200;
+		width:1280;
+}
+ .news1 img
+{
+		position:relative;
+	    border:1px solid transparent;
+		float:left;
+		width:370px;
+		height:250px;
+}
+
+.news2 img
+{
+		padding-top:26px;
+		border:1px solid transparent;
+		position:relative;
+		float:left;
+		width:370px;
+		height:250px;
+}
+.news3 img
+{
+		border:1px solid transparent;
+		position:relative;
+		float:left;
+		width:370px;
+		height:250px;
+}
+.container
+{
+		border:1px solid transparent;
+		width:1200;
+		height:400;
+		margin:50px;
+}
+.news1 h4
+{
+		font-family:'Oswald', sans-serif;
+		color:#ff0000;
+		font-size:20px;
+}
+.news2 h4
+{
+		font-family:'Oswald', sans-serif;
+		color:#ff00ff;
+		font-size:20px;
+}
+.news3 h4
+{
+		font-family:'Oswald', sans-serif;
+		color:#2fe675;
+		font-size:20px;
+}
+.about h4
+{
+		font-size:20px;
+		font-weight:bold;
+}
+.about
+{
+		color:white;
+		font-family:'Oswald', sans-serif;
+		border:1px solid transparent;
+		float:left;
+		font-size:16px;
+		height:160px;
+		width:300px;
+		padding-right:100px;
+}
+.content
+{
+		border:1px  solid transparent;
+		width:1200px;
+		height:300px;
+		padding-top:100px;
+		padding-left:100px;
+		padding-bottom:100px;
+}
+.contactdetails h4
+{       
+        text-align:left;
+		color:white;
+		font-family:'Oswald', sans-serif;
+		font-size:20px;
+}
+.contactdetails
+{
+		float:left;
+		border:1px solid transparent;
+		height:200px;
+		width:300px;
+		color:white;
+		font-family:'Oswald', sans-serif;
+		padding-right:50px;
+}
+.contactdetails p
+{
+        display:inline;
+}
+.accept h4
+{
+		font-size:20px;
+		color:white;
+		font-family:'Oswald', sans-serif;
+}
+.accept
+{
+		float:left;
+		border:1px solid transparent;
+		height:200px;
+		width:350px;
+		padding-left:50px;
+}
+.footer
+{
+		background-image:linear-gradient( to right, #FF9B86,#FFFB84, #22d3ac,#97739C) ;
+		background-size:cover;
+		height:80px;
+}
+.footer p
+{
+		font-family:'Oswald', sans-serif;
+		text-align:left;
+		padding-top:30px;
+		padding-left:30px;
+		color:white;
+		font-size:12px;
+}
+</style>
