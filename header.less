@@ -1,68 +1,73 @@
 @color1: linear-gradient( to right, #FF9B86,#FFFB84, #22d3ac,#97739C) ;
 @color2: rgb(238, 238, 238);
 @font:'Oswald', sans-serif;
-.header
-{ 
-       height:80px;
-       font-family:@font;
-       font-size:2vw;
-       color:white;	   
-       background-image:@color1;
-       background-position:top left;
-       background-repeat:repeat;
-h2
-{
-	border:1px solid transparent;
-	height:100%;
-	width:100%;
-	font-family:@font;
-	color:white;
-	font-size:40px;
-	padding:20px;
-
-}
-a
-{
-      font-size: 14px;
-      font-family:@font;
-      color:#FFF;
-      text-transform: uppercase;
-      text-decoration:none;
-      text-align:right;
-      position:relative;
-      top:-130px;     
-      left:600px;
-      padding:14px;
-}
-}
-@media(max-width:768px)
+@media(min-width:768px)
 {
 .header
 {
 	background-image:@color1;
-	height:80px;
-        width:100%;
+	position:relative;
+	width:100%;
+	font-family:@font;
+h2
+{
+	font-size:2em;
+	color:white;
+}
+a
+{
+        font-size: 1em;
+        font-family:@font;
+        color:#FFF;
+        text-transform: uppercase;
+        text-decoration:none;
+        text-align:left;
+        position:relative;
+        left:600px;
+	top:-3em;
+        padding:14px;
+	align-items:centre;
+	justify-content:centre;
+}
+}
+}
+@media(max-width:767px)
+{
+.header
+{
+	background-image:@color1;
+	width:100%;
+	overflow:hidden;
 	font-family:@font;
 	background-position:top left;
         background-repeat:repeat;
-a
-{
-      font-size: 14px;
-      font-family:@font;
-      color:#FFF;
-      text-transform: uppercase;
-      text-decoration:none;
-      text-align:left;
-      position:relative;
-      bottom:90px;
-      padding:14px;
-}
 h2 
-{	border:1px solid transparent;
-	height:100%;
+{	
+	border:1px solid transparent;
 	font-family:@font;
 	color:white;
-	font-size:6vw;
+	font-size:3em;
+	position:relative;
+	bottom:-2vw;
+}
+i.responsive_bar
+{
+    background: #000;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 2em;
+    height: 43px;
+    line-height: 1.6em;
+    margin-right: 15px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    text-align: center;
+    width: 55px;
 }
 }
 }
+
